@@ -8,18 +8,36 @@ public class ManageCamera : MonoBehaviour
     public float zoomSpeed = 0.35f;
     public Vector2 minZoom = new Vector2(5f, -22.2f);
     public Vector2 maxZoom = new Vector2(9.8f, -13.9f);
+    ObjectStats present;
 
     private void Update()
     {
         HandleMouseInput();
+        if (present != null)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                if(hit.collider.gameObject == present.gameObject)
+                {
+                    return;
+                }
+                    present.transform.position = new Vector3(hit.point.x, hit.point.y + 0.3f, hit.point.z);
+            }
+        }
     }
 
     private void HandleMouseInput()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Interacción bichín
+            pickObject();
+        }
 
+        if (Input.GetMouseButtonUp(0))
+        {
+            releaseObject();
         }
 
         if (Input.GetMouseButton(2))
@@ -43,5 +61,26 @@ public class ManageCamera : MonoBehaviour
         Camera.main.transform.position += dy*Camera.main.transform.forward*zoomSpeed;
         Vector3 camPos = Camera.main.transform.position;
         Camera.main.transform.position = new Vector3(camPos.x, Mathf.Clamp(camPos.y, minZoom.x, maxZoom.x), Mathf.Clamp(camPos.z, minZoom.y, maxZoom.y));
+    }
+
+    private void pickObject()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Debug.Log("Hit pickPresent: " + hit.collider.gameObject.name);
+            if (hit.collider.gameObject.TryGetComponent<ObjectStats>(out ObjectStats present))
+            {
+                this.present = present;
+                present.GetComponent<Collider>().enabled = false;
+            }
+        }
+    }
+
+    private void releaseObject()
+    {
+        present.GetComponent<Collider>().enabled = true;
+        present = null;
     }
 }

@@ -1,9 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.EventSystems;
 
 public class Animal : MonoBehaviour
 {
@@ -22,6 +20,8 @@ public class Animal : MonoBehaviour
         currentBehaviour = behaviour;
         currentBehaviour.Enter();
     }
+
+    public ObjectStats actualPresent;
 
     
 

@@ -4,7 +4,9 @@ public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
 {
     public abstract IAnimalBehaviour.StateClass StateName { get; }
 
+    [HideInInspector]
     public Animal animal;
+
     protected void Start()
     {
         animal = GetComponentInParent<Animal>();
