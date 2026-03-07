@@ -13,6 +13,8 @@ public class Animal : MonoBehaviour
     public Animator animator;
     [HideInInspector]
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
+    public float happiness = 0;
+
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
     {   
         IAnimalBehaviour behaviour = states[behaviourName];
@@ -23,8 +25,8 @@ public class Animal : MonoBehaviour
     }
 
     public ObjectStats actualPresent;
+    public GameObject uniquePresent;
 
-    
 
     private void Awake()
     {
@@ -46,6 +48,14 @@ public class Animal : MonoBehaviour
         if (currentBehaviour != null)
         {
             currentBehaviour.UpdateState();
+        }
+    }
+
+    private void GivePresent()
+    {
+        if(happiness >= 10)
+        {
+
         }
     }
 }
