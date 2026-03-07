@@ -9,7 +9,8 @@ public class Animal : MonoBehaviour
 
     [HideInInspector]
     public NavMeshAgent agent;
-
+    [HideInInspector]
+    public Animator animator;
     [HideInInspector]
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
@@ -29,6 +30,7 @@ public class Animal : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         IAnimalBehaviour[] stateList = GetComponentsInChildren<IAnimalBehaviour>();
+        animator = GetComponentInChildren<Animator>();
         foreach (IAnimalBehaviour state in stateList)
         {
             states.Add(state.StateName,state);
