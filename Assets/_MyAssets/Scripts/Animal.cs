@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -26,6 +27,7 @@ public class Animal : MonoBehaviour
 
     public ObjectStats actualPresent;
     public GameObject uniquePresent;
+    public Boolean presentInstantiated = false;
 
 
     private void Awake()
@@ -36,26 +38,38 @@ public class Animal : MonoBehaviour
         foreach (IAnimalBehaviour state in stateList)
         {
             states.Add(state.StateName,state);
-            
         }
         currentBehaviour = states.Values.First();
         Debug.Log(currentBehaviour.StateName);
         currentBehaviour.Enter();
     }
 
+    //private void Start()
+    //{
+    //    Instantiate(uniquePresent, new Vector3(0, 0, 0), Quaternion.identity);
+    //}
+
     private void Update()
     {
         if (currentBehaviour != null)
         {
             currentBehaviour.UpdateState();
+            Debug.Log(currentBehaviour.StateName);
+            if(!presentInstantiated)
+            {
+                GivePresent();
+            }
         }
+        happiness++;
     }
 
     private void GivePresent()
     {
         if(happiness >= 10)
         {
-
+            Debug.Log("Instantiating present");
+            Instantiate(uniquePresent, new Vector3(-1.72000003f, 2.20000005f, -10.4700003f), Quaternion.identity);
+            presentInstantiated = true;
         }
     }
 }
