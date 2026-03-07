@@ -2,14 +2,33 @@ using UnityEngine;
 
 public class WalkAnimalBehaviour : AnimalBehaviourBase
 {
+
+
+
     public Transform[] WalkPoints;
+
+    public override IAnimalBehaviour.StateClass StateName
+    {
+        get
+        {
+            return IAnimalBehaviour.StateClass.WALK;
+        }
+    }
 
     public override void Enter()
     {
-       WalkPoints = GameManager.Instance.WalkPoints;
+        animal.agent.destination = WalkPoints[Random.Range(0, WalkPoints.Length)].position;
     }
 
     public override void UpdateState() {
         
+        if (animal.agent.remainingDistance < 0.1f)
+        {
+            animal.changeState(IAnimalBehaviour.StateClass.IDLE);
+        } 
+    
     }
+
+   
+
 }

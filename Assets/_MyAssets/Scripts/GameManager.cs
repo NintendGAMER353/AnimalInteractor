@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Transform[] WalkPoints;
+
 
     public static GameManager Instance;
 

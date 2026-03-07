@@ -1,9 +1,14 @@
 using UnityEngine;
-
+using System;
 public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
 {
-    public Animal animal;
+    public abstract IAnimalBehaviour.StateClass StateName { get; }
 
+    public Animal animal;
+    protected void Start()
+    {
+        animal = GetComponentInParent<Animal>();
+    }
     public virtual void Enter()
     {
         
@@ -18,4 +23,5 @@ public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
     {
         
     }
+
 }
