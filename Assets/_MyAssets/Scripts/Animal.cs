@@ -14,7 +14,6 @@ public class Animal : MonoBehaviour
     public Animator animator;
     [HideInInspector]
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
-    public float happiness = 0;
 
     public enum AnimalOrientation
     {
@@ -33,10 +32,6 @@ public class Animal : MonoBehaviour
         currentBehaviour = behaviour;
         currentBehaviour.Enter();
     }
-
-    public ObjectStats actualPresent;
-    public GameObject uniquePresent;
-    public Boolean presentInstantiated = false;
 
 
     private void Awake()
@@ -66,14 +61,7 @@ public class Animal : MonoBehaviour
         {
             currentBehaviour.UpdateState();
             //Debug.Log(currentBehaviour.StateName);
-            if(!presentInstantiated)
-            {
-                GivePresent();
-            }
         }
-        happiness++;
-
-        
     }
 
 
@@ -101,20 +89,6 @@ public class Animal : MonoBehaviour
             orientation = AnimalOrientation.RIGHT;
         else if (ret == Vector3.forward)
             orientation = AnimalOrientation.BACK;
-
-
-    }
-
-
-
-    private void GivePresent()
-    {
-        if(happiness >= 10)
-        {
-            Debug.Log("Instantiating present");
-            Instantiate(uniquePresent, new Vector3(-1.72000003f, 2.20000005f, -10.4700003f), Quaternion.identity);
-            presentInstantiated = true;
-        }
     }
 
     private void OnTriggerEnter(Collider other)

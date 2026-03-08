@@ -7,11 +7,11 @@ public class ObjectStats : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.TryGetComponent(out Animal an))
+        if (collision.gameObject.TryGetComponent(out Animal an))
         {
             Debug.Log("HitAnimal");
-            an.actualPresent = this;
-            this.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            an.GetComponentInChildren<GivePresentBehaviour>().actualPresent = this;
+            an.changeState(IAnimalBehaviour.StateClass.GIVE_PRESENT);
         }
     }
 

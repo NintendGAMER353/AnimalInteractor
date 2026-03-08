@@ -8,9 +8,8 @@ public interface IAnimalBehaviour
         IDLE,
         WALK,
         GREET,
-        GOOD_PRESENT,
-        BAD_PRESENT,
-        GIVE_GIFT
+        GIVE_PRESENT,
+        RETURN_PRESENT
     }
     void Enter();
 
