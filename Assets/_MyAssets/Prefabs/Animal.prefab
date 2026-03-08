@@ -8,7 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2562901637163617697}
+  - component: {fileID: 3348449581855254606}
+  - component: {fileID: 6513685005092472474}
   m_Layer: 0
   m_Name: GivePresentState
   m_TagString: Untagged
