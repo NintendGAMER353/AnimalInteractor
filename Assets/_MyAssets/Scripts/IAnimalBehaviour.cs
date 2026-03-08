@@ -6,7 +6,11 @@ public interface IAnimalBehaviour
     public enum StateClass
     {
         IDLE,
-        WALK
+        WALK,
+        GREET,
+        GOOD_PRESENT,
+        BAD_PRESENT,
+        GIVE_GIFT
     }
     void Enter();
 

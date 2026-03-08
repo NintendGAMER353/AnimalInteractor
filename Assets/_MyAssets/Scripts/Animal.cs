@@ -50,13 +50,14 @@ public class Animal : MonoBehaviour
         }
         currentBehaviour = states.Values.First();
         Debug.Log(currentBehaviour.StateName);
-        currentBehaviour.Enter();
+        
     }
 
-    //private void Start()
-    //{
-    //    Instantiate(uniquePresent, new Vector3(0, 0, 0), Quaternion.identity);
-    //}
+    private void Start()
+    {
+        //Instantiate(uniquePresent, new Vector3(0, 0, 0), Quaternion.identity);
+        currentBehaviour.Enter();
+    }
 
     private void Update()
     {
@@ -113,6 +114,14 @@ public class Animal : MonoBehaviour
             Debug.Log("Instantiating present");
             Instantiate(uniquePresent, new Vector3(-1.72000003f, 2.20000005f, -10.4700003f), Quaternion.identity);
             presentInstantiated = true;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Animal component)) {
+
+            //changeState(IAnimalBehaviour.StateClass.GREET);
         }
     }
 }
