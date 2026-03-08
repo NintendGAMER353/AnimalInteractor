@@ -16,6 +16,15 @@ public class Animal : MonoBehaviour
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
     public float happiness = 0;
 
+    public enum AnimalOrientation
+    {
+        FRONT,
+        BACK,
+        LEFT,
+        RIGHT
+    }
+
+    public AnimalOrientation orientation = AnimalOrientation.FRONT;
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
     {   
         IAnimalBehaviour behaviour = states[behaviourName];
@@ -51,17 +60,51 @@ public class Animal : MonoBehaviour
 
     private void Update()
     {
+
         if (currentBehaviour != null)
         {
             currentBehaviour.UpdateState();
-            Debug.Log(currentBehaviour.StateName);
+            //Debug.Log(currentBehaviour.StateName);
             if(!presentInstantiated)
             {
                 GivePresent();
             }
         }
         happiness++;
+
+        
     }
+
+
+    public void AgentOrientation()
+    {
+
+            float maxDot = -Mathf.Infinity;
+            Vector3 ret = Vector3.zero;
+
+        foreach (Vector3 dir in new Vector3[]{ Vector3.forward,Vector3.back,Vector3.left,Vector3.right})
+            {
+                float t = Vector3.Dot(agent.velocity, dir);
+                if (t > maxDot)
+                {
+                    ret = dir;
+                    maxDot = t;
+                }
+            }
+
+        if (ret == Vector3.back)
+            orientation = AnimalOrientation.FRONT;
+        else if (ret == Vector3.left)
+            orientation = AnimalOrientation.LEFT;
+        else if (ret == Vector3.right)
+            orientation = AnimalOrientation.RIGHT;
+        else if (ret == Vector3.forward)
+            orientation = AnimalOrientation.BACK;
+
+
+    }
+
+
 
     private void GivePresent()
     {

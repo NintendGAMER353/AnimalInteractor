@@ -32,12 +32,12 @@ public class ManageCamera : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            pickObject();
+            PickObject();
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            releaseObject();
+            ReleaseObject();
         }
 
         if (Input.GetMouseButton(2))
@@ -63,7 +63,7 @@ public class ManageCamera : MonoBehaviour
         Camera.main.transform.position = new Vector3(camPos.x, Mathf.Clamp(camPos.y, minZoom.x, maxZoom.x), Mathf.Clamp(camPos.z, minZoom.y, maxZoom.y));
     }
 
-    private void pickObject()
+    private void PickObject()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
@@ -78,9 +78,13 @@ public class ManageCamera : MonoBehaviour
         }
     }
 
-    private void releaseObject()
+    private void ReleaseObject()
     {
-        present.GetComponent<Collider>().enabled = true;
-        present = null;
+        if (present != null)
+        {
+            present.GetComponent<Collider>().enabled = true;
+            present = null;
+        }
+
     }
 }

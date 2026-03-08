@@ -121,8 +121,10 @@ MonoBehaviour:
   agent: {fileID: 0}
   animator: {fileID: 0}
   happiness: 0
+  orientation: 0
   actualPresent: {fileID: 0}
   uniquePresent: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
+  presentInstantiated: 0
 --- !u!65 &2403255975267920754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -199,7 +201,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: -0, z: -0, w: 0.9659258}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.9999999, y: 1.9999999, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8223424761642084396}

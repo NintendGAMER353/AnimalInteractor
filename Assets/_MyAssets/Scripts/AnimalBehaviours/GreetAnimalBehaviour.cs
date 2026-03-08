@@ -1,11 +1,8 @@
 using UnityEngine;
 
-public class WalkAnimalBehaviour : AnimalBehaviourBase
+public class GreetAnimalBehaviour : AnimalBehaviourBase
 {
 
-
-
-    public Transform[] WalkPoints;
 
     public override IAnimalBehaviour.StateClass StateName
     {
@@ -17,14 +14,11 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        animal.agent.destination = WalkPoints[Random.Range(0, WalkPoints.Length)].position;
+        
     }
 
     public override void UpdateState() {
-        animal.AgentOrientation();
-
-        //change animations with orientation
-
+        
         if (animal.agent.remainingDistance < 0.1f)
         {
             animal.changeState(IAnimalBehaviour.StateClass.IDLE);

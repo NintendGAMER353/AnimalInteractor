@@ -6,6 +6,7 @@ public class IdleAnimalBehaviour : AnimalBehaviourBase
     private float idleStartTime;
     
     public float idleDuration;
+    
 
     public override IAnimalBehaviour.StateClass StateName
     {
@@ -18,6 +19,18 @@ public class IdleAnimalBehaviour : AnimalBehaviourBase
     public override void Enter()
     {
         idleStartTime = Time.time;
+        switch (animal.orientation)
+        {
+            case Animal.AnimalOrientation.FRONT:
+                animal.animator.Play(AnimalAnimations.IdleFront.ToString());
+                break;
+            case Animal.AnimalOrientation.BACK:
+                animal.animator.Play(AnimalAnimations.IdleBack.ToString());
+                break;
+        }
+        
+        
+        
     }
     public override void UpdateState()
     {

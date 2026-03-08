@@ -7,7 +7,13 @@ public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
     [HideInInspector]
     public Animal animal;
 
-    protected void Start()
+    public enum AnimalAnimations
+    {
+        IdleBack,
+        IdleFront,
+    }
+
+    protected void Awake()
     {
         animal = GetComponentInParent<Animal>();
     }
