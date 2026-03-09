@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -33,8 +34,15 @@ public class GameManager : MonoBehaviour
         pausePanel.SetActive(false);
     }
 
+    public void OnReturnMainMenu()
+    {
+        Debug.Log("Return Main Menu");
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void OnQuit()
     {
-        Debug.Log("Quit");
+        Debug.Log("Quit Game");
+        Application.Quit();
     }
 }
