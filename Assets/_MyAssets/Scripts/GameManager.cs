@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
+    public PresentSpawnController presentGen;
 
     public static GameManager Instance;
 
@@ -30,5 +31,10 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         pausePanel.SetActive(false);
+    }
+
+    public void OnQuit()
+    {
+        Debug.Log("Quit");
     }
 }

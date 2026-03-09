@@ -22,7 +22,7 @@ public class Animal : MonoBehaviour
         LEFT,
         RIGHT
     }
-
+    public float happiness = 0;
     public AnimalOrientation orientation = AnimalOrientation.FRONT;
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
     {   

@@ -18,6 +18,12 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
     public override void Enter()
     {
         animal.agent.destination = WalkPoints[Random.Range(0, WalkPoints.Length)].position;
+        animal.agent.isStopped = false;
+    }
+
+    public override void Exit()
+    {
+        animal.agent.isStopped = true;
     }
 
     public override void UpdateState() {

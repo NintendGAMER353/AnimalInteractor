@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animal: {fileID: 0}
-  happiness: 0
   actualPresent: {fileID: 0}
   presentInstantiated: 0
+  likeEffectSprite: {fileID: 3403923159749714525, guid: 3ec740facde9b7e42b567632f131c19d, type: 3}
 --- !u!1 &6089478402311420517
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
   animator: {fileID: 0}
+  happiness: 0
   orientation: 0
 --- !u!65 &2403255975267920754
 BoxCollider:

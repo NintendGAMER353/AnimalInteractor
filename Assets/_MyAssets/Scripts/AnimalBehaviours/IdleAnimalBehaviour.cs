@@ -3,7 +3,7 @@ using UnityEngine;
 public class IdleAnimalBehaviour : AnimalBehaviourBase
 {
 
-    private float idleStartTime;
+    private Timer timer;
     
     public float idleDuration;
     
@@ -18,7 +18,7 @@ public class IdleAnimalBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        idleStartTime = Time.time;
+        timer = new(idleDuration);
         switch (animal.orientation)
         {
             case Animal.AnimalOrientation.FRONT:
@@ -41,7 +41,7 @@ public class IdleAnimalBehaviour : AnimalBehaviourBase
     public override void UpdateState()
     {
         
-        if (idleStartTime + idleDuration < Time.time) {
+        if (timer.Finished) {
             animal.changeState(IAnimalBehaviour.StateClass.WALK);
         }
     }

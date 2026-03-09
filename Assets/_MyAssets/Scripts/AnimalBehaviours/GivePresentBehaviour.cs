@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class GivePresentBehaviour : AnimalBehaviourBase
 {
-    public float happiness = 0;
+    
     [HideInInspector]
     public ObjectStats actualPresent;
-    public Boolean presentInstantiated = false;
+    public GameObject likeEffectSprite;
 
+    Timer timer;
     public override IAnimalBehaviour.StateClass StateName
     {
         get
@@ -21,27 +22,32 @@ public class GivePresentBehaviour : AnimalBehaviourBase
     //    Instantiate(uniquePresent, new Vector3(0, 0, 0), Quaternion.identity);
     //}
 
-    public override void UpdateState()
-    {
-        happiness++;
-        if (!presentInstantiated)
-        {
-            CheckPresent();
-        }
-    }
 
-    private void CheckPresent()
+    public override void Enter()
     {
-        if (happiness >= 10)
+        actualPresent.GetComponent<Collider>().enabled = false;
+        timer = new(2);
+        animal.happiness++;
+        Instantiate(likeEffectSprite, transform,false);
+
+        if (animal.happiness >= 5)
         {
             Debug.Log("Instantiating present");
             animal.changeState(IAnimalBehaviour.StateClass.RETURN_PRESENT);
-            presentInstantiated = true;
+            
         }
     }
+    public override void UpdateState()
+    {
+        if (timer.Finished)
+            animal.changeState(IAnimalBehaviour.StateClass.IDLE);
+
+    }
+
 
     public override void Exit()
     {
+        GameManager.Instance.presentGen.presentsSpawned.Remove(actualPresent.gameObject);
         Destroy(actualPresent.gameObject);
         actualPresent = null;
     }
