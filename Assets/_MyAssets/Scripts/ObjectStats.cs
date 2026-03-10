@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ObjectStats : MonoBehaviour
 {
-    public Dictionary<Animal, int> likes = new();
+    public GiftSO giftData;
 
     private void OnCollisionEnter(Collision collision)
     {

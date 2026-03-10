@@ -15,6 +15,7 @@ public class Animal : MonoBehaviour
     [HideInInspector]
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
 
+    public AnimalSO animalData;
     public enum AnimalOrientation
     {
         FRONT,
@@ -24,6 +25,7 @@ public class Animal : MonoBehaviour
     }
     public float happiness = 0;
     public AnimalOrientation orientation = AnimalOrientation.FRONT;
+ 
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
     {   
         IAnimalBehaviour behaviour = states[behaviourName];
@@ -39,6 +41,7 @@ public class Animal : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         IAnimalBehaviour[] stateList = GetComponentsInChildren<IAnimalBehaviour>();
         animator = GetComponentInChildren<Animator>();
+        
         foreach (IAnimalBehaviour state in stateList)
         {
             states.Add(state.StateName,state);
