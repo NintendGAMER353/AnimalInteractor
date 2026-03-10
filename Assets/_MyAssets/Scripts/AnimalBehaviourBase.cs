@@ -11,6 +11,12 @@ public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
     {
         IdleBack,
         IdleFront,
+        IdleLeft,
+        IdleRight,
+        WalkFront,
+        WalkBack,
+        WalkLeft,
+        WalkRight,
     }
 
     protected void Awake()

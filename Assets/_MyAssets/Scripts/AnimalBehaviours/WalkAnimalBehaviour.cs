@@ -30,6 +30,21 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
         animal.AgentOrientation();
 
         //change animations with orientation
+        switch (animal.orientation)
+        {
+            case Animal.AnimalOrientation.FRONT:
+                animal.animator.Play(AnimalAnimations.WalkFront.ToString());
+                break;
+            case Animal.AnimalOrientation.BACK:
+                //animal.animator.Play(AnimalAnimations.IdleBack.ToString());
+                break;
+            //faltan animaciones por meter
+            case Animal.AnimalOrientation.LEFT:
+
+                break;
+            case Animal.AnimalOrientation.RIGHT:
+                break;
+        }
 
         if (animal.agent.remainingDistance < 0.1f)
         {
