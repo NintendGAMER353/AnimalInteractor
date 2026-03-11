@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnimalName: Kitty
   prefab: {fileID: 7622660032624150380, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
+  GiftsWhenHappy: {fileID: 11400000, guid: a5f240dbb9ee6b6498f27af043a96615, type: 2}

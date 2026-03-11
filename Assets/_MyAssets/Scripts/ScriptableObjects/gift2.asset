@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: gift2
   m_EditorClassIdentifier: 
   giftName: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
   likedBy: []
   dislikedBy: []
