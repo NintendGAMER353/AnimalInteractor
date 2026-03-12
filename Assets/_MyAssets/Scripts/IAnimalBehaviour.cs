@@ -2,8 +2,8 @@ using UnityEngine;
 using System;
 public interface IAnimalBehaviour
 {
-    //bool IsInterrumpible { get; set; }
-    
+    bool IsInterrumpible { get; set; }
+
 
     /// <summary>
     /// Enum con los tipos de estados que pueden tener los animales

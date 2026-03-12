@@ -27,11 +27,11 @@ public class IdleAnimalBehaviour : AnimalBehaviourBase
             case Animal.AnimalOrientation.BACK:
                 animal.animator.Play(AnimalAnimations.IdleBack.ToString());
                 break;
-            //faltan animaciones por meter
             case Animal.AnimalOrientation.LEFT:
-                
+                animal.animator.Play(AnimalAnimations.IdleLeft.ToString());
                 break;
             case Animal.AnimalOrientation.RIGHT:
+                animal.animator.Play(AnimalAnimations.IdleRight.ToString());
                 break;
         }
         

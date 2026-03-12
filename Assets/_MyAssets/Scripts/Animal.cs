@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class Animal : MonoBehaviour
 {
-    IAnimalBehaviour currentBehaviour;
+    public IAnimalBehaviour currentBehaviour;
 
     [HideInInspector]
     public NavMeshAgent agent;

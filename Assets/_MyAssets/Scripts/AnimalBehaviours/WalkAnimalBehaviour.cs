@@ -36,7 +36,7 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
                 animal.animator.Play(AnimalAnimations.WalkFront.ToString());
                 break;
             case Animal.AnimalOrientation.BACK:
-                //animal.animator.Play(AnimalAnimations.IdleBack.ToString());
+                animal.animator.Play(AnimalAnimations.WalkBack.ToString());
                 break;
             //faltan animaciones por meter
             case Animal.AnimalOrientation.LEFT:

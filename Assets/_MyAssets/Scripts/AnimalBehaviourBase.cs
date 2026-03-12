@@ -3,6 +3,7 @@ using System;
 public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
 {
     public abstract IAnimalBehaviour.StateClass StateName { get; }
+    public bool IsInterrumpible { get; set; } = true;
 
     [HideInInspector]
     public Animal animal;

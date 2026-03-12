@@ -4,6 +4,11 @@ public class ReturnPresentBehaviour : AnimalBehaviourBase
 {
     public GameObject uniquePresent;
 
+
+    private void Start()
+    {
+        IsInterrumpible = false;
+    }
     public override IAnimalBehaviour.StateClass StateName
     {
         get

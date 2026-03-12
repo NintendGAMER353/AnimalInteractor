@@ -17,14 +17,15 @@ public class GivePresentBehaviour : AnimalBehaviourBase
         }
     }
 
-    //private void Start()
-    //{
-    //    Instantiate(uniquePresent, new Vector3(0, 0, 0), Quaternion.identity);
-    //}
+    private void Start()
+    {
+        IsInterrumpible = false;
+    }
 
 
     public override void Enter()
     {
+        
         actualPresent.GetComponent<Collider>().enabled = false;
         timer = new(2);
         animal.happiness++;
