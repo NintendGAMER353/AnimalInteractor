@@ -1,6 +1,8 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PresentSpawnController : MonoBehaviour
 {
@@ -10,10 +12,13 @@ public class PresentSpawnController : MonoBehaviour
     public float genFrequency = 1;
     public int maxSpawnedPresents = 3;
     public List<GameObject> presentsSpawned = new();
+    NavMeshSurface navMesh;
+ 
 
     private void Start()
     {
         timer = new(genFrequency);
+        
     }
 
     private void Update()
@@ -21,13 +26,20 @@ public class PresentSpawnController : MonoBehaviour
         if (!timer.Finished)
             return;
 
+        timer.Reset();
+
         if (presentsSpawned.Count >= maxSpawnedPresents)
             return;
-        
-        
-        GameObject present = Instantiate(PresentPrefab,transform.position + Vector3.back,Quaternion.identity);
+
+        Vector3 randomDirection = Random.insideUnitSphere * 5;
+
+        randomDirection += transform.position;
+        NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, 5, 1);
+        Vector3 finalPosition = hit.position;
+
+        GameObject present = Instantiate(PresentPrefab,finalPosition,Quaternion.identity);
         presentsSpawned.Add(present);
-        timer.Reset();
+        
         
     }
 }

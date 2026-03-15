@@ -13,8 +13,8 @@ public class VanishingEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //transform.position += Vector3.up * Time.deltaTime;
 
-       
         if (timer.Finished)
         {
             Destroy(gameObject);

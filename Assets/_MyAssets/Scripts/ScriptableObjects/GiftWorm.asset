@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8a88c83290c8a4499e0e97eaadcba25, type: 3}
-  m_Name: gift2
+  m_Name: GiftWorm
   m_EditorClassIdentifier: 
-  giftName: Mosca
+  giftName: Worm
   prefab: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
   likedBy:
   - {fileID: 11400000, guid: 2b089b4b124a0524c8567e01c9f1f678, type: 2}
   dislikedBy:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: f8951432674a0f849ac6a8613dccbef8, type: 2}
+  - {fileID: 11400000, guid: 6c77ed794df356f4398c9d8615c66410, type: 2}

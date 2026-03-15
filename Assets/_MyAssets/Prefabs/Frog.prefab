@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: -1181573141, guid: 5a54ee7ad9a078146b9855982c40efb9, type: 3}
     - target: {fileID: 1190408341465850097, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3004410987361521741, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
       propertyPath: animalData

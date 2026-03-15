@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8620204924956805146}
   - component: {fileID: 7697929793708505766}
   m_Layer: 0
-  m_Name: LikeEffect
+  m_Name: DislikeEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1916450157, guid: 4092e9262f212154b88d20c6d8c445e7, type: 3}
+  m_Sprite: {fileID: -492050455, guid: 6aedd40e512495c4e8b3fcb4f583e28e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -143,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 6752141481766384774}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 246f20e9bdb2a3f439a579647a56cef9, type: 2}
+  m_Controller: {fileID: 9100000, guid: baf482cd0a040674795c97c92542f5ed, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

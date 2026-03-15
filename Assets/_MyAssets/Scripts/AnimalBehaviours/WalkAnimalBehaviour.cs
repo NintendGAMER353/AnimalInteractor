@@ -47,7 +47,7 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
                 break;
         }
 
-        if (animal.agent.remainingDistance < 0.1f)
+        if (animal.agent.remainingDistance < 0.5f)
         {
             animal.changeState(IAnimalBehaviour.StateClass.IDLE);
         } 

@@ -32,7 +32,8 @@ public class GivePresentBehaviour : AnimalBehaviourBase
         if (actualPresent.giftData.likedBy.Contains(animal.animalData))
         {
             animal.happiness++;
-            Instantiate(likeEffectSprite, transform, false);
+            GameObject effect = Instantiate(likeEffectSprite, transform, false);
+            effect.transform.forward -= transform.forward*.1f;
         }
         else
         {

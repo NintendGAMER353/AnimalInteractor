@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: adaf3b0f5654fa546a8bf0a36fa3814d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6c69aa420f066148abb54265ac38af1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 1667448719606861298}
   - component: {fileID: 891611507363603454}
   m_Layer: 0
-  m_Name: givenPresent
+  m_Name: WormPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
