@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3082035941394671325}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -0.08, y: 0.782, z: 0.452}
+  m_LocalPosition: {x: -0.08, y: 0.84, z: 0.351}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93,7 +93,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animal: {fileID: 0}
-  uniquePresent: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
 --- !u!1 &7457018576407723668
 GameObject:
   m_ObjectHideFlags: 0

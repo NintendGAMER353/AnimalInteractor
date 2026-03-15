@@ -35,7 +35,7 @@ public class PresentSpawnController : MonoBehaviour
 
         randomDirection += transform.position;
         NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, 5, 1);
-        Vector3 finalPosition = hit.position;
+        Vector3 finalPosition = new Vector3(hit.position.x,transform.position.y,hit.position.z);
 
         GameObject present = Instantiate(PresentPrefab,finalPosition,Quaternion.identity);
         presentsSpawned.Add(present);

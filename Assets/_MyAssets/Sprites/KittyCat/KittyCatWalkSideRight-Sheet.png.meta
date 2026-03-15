@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8d986ab89ee631499b36c6a9a215e5b
+guid: fb1ca87ad28ab33428fb08a4a69ba4a2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_0
+      name: KittyCatWalkSideRight-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7ec2ab2fe75754896fd816c957ca20
-      internalID: -232426130
+      spriteID: d6119809fc5eecd48aeb6fa4893f9b51
+      internalID: -346863882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_1
+      name: KittyCatWalkSideRight-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dcd7fb54e7a35941b232311b615b25a
-      internalID: -1609045521
+      spriteID: f43c4a43144712940a9af135cc45624d
+      internalID: -101706242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_2
+      name: KittyCatWalkSideRight-Sheet_2
       rect:
         serializedVersion: 2
         x: 48
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf7546d7a43fb3945ac7734865a7aa5e
-      internalID: 1254182073
+      spriteID: 896da236b29de9c4da6099e36fc87cb1
+      internalID: -915492764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_3
+      name: KittyCatWalkSideRight-Sheet_3
       rect:
         serializedVersion: 2
         x: 72
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0d4c08af4873a44096f5ef4f25e194d
-      internalID: 145649546
+      spriteID: b81b2e3e988d379418798bfd394a6029
+      internalID: -2013859952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_4
+      name: KittyCatWalkSideRight-Sheet_4
       rect:
         serializedVersion: 2
         x: 96
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d57eae225ce976498166542fbf78ef3
-      internalID: 482765328
+      spriteID: 285f993d7dcd8f74cb8c69e9c0fdfff5
+      internalID: -1891333027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_5
+      name: KittyCatWalkSideRight-Sheet_5
       rect:
         serializedVersion: 2
         x: 120
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c37f7929d23eb49b6342ca6a6996ac
-      internalID: -1856933689
+      spriteID: 677f3fda70c00004a9373223546b6b64
+      internalID: -8726922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_6
+      name: KittyCatWalkSideRight-Sheet_6
       rect:
         serializedVersion: 2
         x: 144
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 515fcfb181a9e58458f816ef7cc72a11
-      internalID: 993529079
+      spriteID: 6db69c94137a20940b1c21a8c3276035
+      internalID: 1406094667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_7
+      name: KittyCatWalkSideRight-Sheet_7
       rect:
         serializedVersion: 2
         x: 168
@@ -292,8 +292,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 650597ea58995ac4095d2092af2239a9
-      internalID: 709372857
+      spriteID: efb56c23cbd76614280a14a760365d92
+      internalID: 1846282198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KittyCatWalkSideRight-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f871bb4ea2ee845a00d495b0b8eba9
+      internalID: -1268768351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KittyCatWalkSideRight-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd5595e8a2d7854285e57c4c12c83f5
+      internalID: 2006974341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KittyCatWalkSideRight-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9324917260618784795be55e2a0114b7
+      internalID: 1102479474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KittyCatWalkSideRight-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78a25dd1225da345b70d6d9e48a45aa
+      internalID: -1799469118
       vertices: []
       indices: 
       edges: []
@@ -302,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1bbb7c607edb1f64880af9fdd445b2a0
+    spriteID: 0e15a7d4cbd5fdc42bab432a6dbcf087
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +400,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RedPandaIdleFront-Sheet_0: -232426130
-      RedPandaIdleFront-Sheet_1: -1609045521
-      RedPandaIdleFront-Sheet_2: 1254182073
-      RedPandaIdleFront-Sheet_3: 145649546
-      RedPandaIdleFront-Sheet_4: 482765328
-      RedPandaIdleFront-Sheet_5: -1856933689
-      RedPandaIdleFront-Sheet_6: 993529079
-      RedPandaIdleFront-Sheet_7: 709372857
+      KittyCatWalkSideRight-Sheet_0: -346863882
+      KittyCatWalkSideRight-Sheet_1: -101706242
+      KittyCatWalkSideRight-Sheet_10: 1102479474
+      KittyCatWalkSideRight-Sheet_11: -1799469118
+      KittyCatWalkSideRight-Sheet_2: -915492764
+      KittyCatWalkSideRight-Sheet_3: -2013859952
+      KittyCatWalkSideRight-Sheet_4: -1891333027
+      KittyCatWalkSideRight-Sheet_5: -8726922
+      KittyCatWalkSideRight-Sheet_6: 1406094667
+      KittyCatWalkSideRight-Sheet_7: 1846282198
+      KittyCatWalkSideRight-Sheet_8: -1268768351
+      KittyCatWalkSideRight-Sheet_9: 2006974341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
