@@ -17,13 +17,13 @@ public class GreetAnimalBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        timer = new(GreetDuration);
-        //Cambiar a animacion de greet
+        
+        animal.animator.Play(AnimalAnimations.Greet.ToString());
     }
 
     public override void UpdateState() {
         
-        if (timer.Finished)
+        if (animal.animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f)
         {
             animal.changeState(IAnimalBehaviour.StateClass.IDLE);
         } 

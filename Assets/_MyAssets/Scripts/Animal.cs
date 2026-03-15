@@ -98,7 +98,8 @@ public class Animal : MonoBehaviour
     {
         if (other.TryGetComponent(out Animal component)) {
 
-            //changeState(IAnimalBehaviour.StateClass.GREET);
+            if (currentBehaviour.IsInterrumpible) 
+                changeState(IAnimalBehaviour.StateClass.GREET);
         }
     }
 }
