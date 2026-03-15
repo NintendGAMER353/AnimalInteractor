@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a88c83290c8a4499e0e97eaadcba25, type: 3}
   m_Name: gift2
   m_EditorClassIdentifier: 
-  giftName: 
+  giftName: Mosca
   prefab: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
-  likedBy: []
-  dislikedBy: []
+  likedBy:
+  - {fileID: 11400000, guid: 2b089b4b124a0524c8567e01c9f1f678, type: 2}
+  dislikedBy:
+  - {fileID: 0}

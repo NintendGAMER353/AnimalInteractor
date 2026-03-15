@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1b556d6927506b4abebe5f00293e7fd
+guid: 6aedd40e512495c4e8b3fcb4f583e28e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_0
+      name: Dislike-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c076dd69263bec748ba7199d1826ddfc
-      internalID: 1415823431
+      spriteID: 858959e912f3b2d46b188c21e760ddfe
+      internalID: -492050455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_1
+      name: Dislike-Sheet_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3666902c51300f47b31c9d1078575df
-      internalID: -1562421731
+      spriteID: 95c2e302d814f2845a3f3323e0c7ce4f
+      internalID: 2102706535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_2
+      name: Dislike-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14dc5947b47f7544a96d0581c303c47
+      internalID: 717980651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dislike-Sheet_3
       rect:
         serializedVersion: 2
         x: 48
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d2036683e1314843833a5f62827c032
-      internalID: 1403280675
+      spriteID: c0b0cdf524ed68b4c8df1b00881d8180
+      internalID: 1952327370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_3
+      name: Dislike-Sheet_4
       rect:
         serializedVersion: 2
-        x: 72
+        x: 64
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +226,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5ab24d553d9e842b92a94ccd9c4410
-      internalID: -1937734582
+      spriteID: 3c6aa982a4d573f4bbe67493b478e928
+      internalID: -1268319359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_4
+      name: Dislike-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9317d3290819be24fb68df052efa2e99
+      internalID: 2010185188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dislike-Sheet_6
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803dea60a2d89504c9dddc615befa435
-      internalID: 1730297531
+      spriteID: 504e8f4552469dd418ab9877a8463da6
+      internalID: 374919707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_5
+      name: Dislike-Sheet_7
       rect:
         serializedVersion: 2
-        x: 120
+        x: 112
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fa9929fb05fcba4c85570e234f32434
-      internalID: -274772844
+      spriteID: 90bccb9275998734eaa07d803fa7d227
+      internalID: 597760375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_6
+      name: Dislike-Sheet_8
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 24
-        height: 24
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,118 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e8c395d09edd14392ff527118d2613
-      internalID: 1263740858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogWalkBack-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d56b47c89b542a4bb45a4c090376f6b
-      internalID: -355726174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogWalkBack-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28412dc6b4add27479d11375ff1198b4
-      internalID: -1503383043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogWalkBack-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20349947ff138ab4593a1dacf0c43bcb
-      internalID: -1128167381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogWalkBack-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a514bedd3cd73f7408b5e337df8f4505
-      internalID: -2021354236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrogWalkBack-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42aea7c66bf369b43ba7d379ae3d8299
-      internalID: -1505871905
+      spriteID: 3bfa8e5c4144db34d8c3dedf6b6ef5d5
+      internalID: -658796524
       vertices: []
       indices: 
       edges: []
@@ -390,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fcba9be03abbe7a469ce24533c236cd0
+    spriteID: eced84f623de4774f998ba65a0dbac30
     internalID: 0
     vertices: []
     indices: 
@@ -400,18 +334,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrogWalkBack-Sheet_0: 1415823431
-      FrogWalkBack-Sheet_1: -1562421731
-      FrogWalkBack-Sheet_10: -2021354236
-      FrogWalkBack-Sheet_11: -1505871905
-      FrogWalkBack-Sheet_2: 1403280675
-      FrogWalkBack-Sheet_3: -1937734582
-      FrogWalkBack-Sheet_4: 1730297531
-      FrogWalkBack-Sheet_5: -274772844
-      FrogWalkBack-Sheet_6: 1263740858
-      FrogWalkBack-Sheet_7: -355726174
-      FrogWalkBack-Sheet_8: -1503383043
-      FrogWalkBack-Sheet_9: -1128167381
+      Dislike-Sheet_0: -492050455
+      Dislike-Sheet_1: 2102706535
+      Dislike-Sheet_2: 717980651
+      Dislike-Sheet_3: 1952327370
+      Dislike-Sheet_4: -1268319359
+      Dislike-Sheet_5: 2010185188
+      Dislike-Sheet_6: 374919707
+      Dislike-Sheet_7: 597760375
+      Dislike-Sheet_8: -658796524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

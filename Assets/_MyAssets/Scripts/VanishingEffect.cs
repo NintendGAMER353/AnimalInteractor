@@ -14,7 +14,7 @@ public class VanishingEffect : MonoBehaviour
     void Update()
     {
 
-        transform.position += Vector3.up * Time.deltaTime;
+       
         if (timer.Finished)
         {
             Destroy(gameObject);

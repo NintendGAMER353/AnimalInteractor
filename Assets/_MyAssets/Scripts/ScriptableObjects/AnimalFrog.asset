@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f642d51b86bab479d1636d36fffab8, type: 3}
   m_Name: AnimalFrog
   m_EditorClassIdentifier: 
-  AnimalName: 
-  prefab: {fileID: 0}
+  AnimalName: Frog
+  prefab: {fileID: 3960533632338228550, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
+  GiftsWhenHappy: {fileID: 11400000, guid: df9214bf8dfd90941b49a0ca44bbc557, type: 2}

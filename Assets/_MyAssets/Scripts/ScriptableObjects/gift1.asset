@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a88c83290c8a4499e0e97eaadcba25, type: 3}
   m_Name: gift1
   m_EditorClassIdentifier: 
-  giftName: 
-  prefab: {fileID: 0}
+  giftName: Pescado
+  prefab: {fileID: 5919762622638520609, guid: f3b4a0bbe904a8f4fa14af5afd000b41, type: 3}
   likedBy:
   - {fileID: 11400000, guid: f8951432674a0f849ac6a8613dccbef8, type: 2}
   dislikedBy:

@@ -40,9 +40,10 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
                 break;
             //faltan animaciones por meter
             case Animal.AnimalOrientation.LEFT:
-
+                animal.animator.Play(AnimalAnimations.WalkLeft.ToString());
                 break;
             case Animal.AnimalOrientation.RIGHT:
+                animal.animator.Play(AnimalAnimations.WalkRight.ToString());
                 break;
         }
 

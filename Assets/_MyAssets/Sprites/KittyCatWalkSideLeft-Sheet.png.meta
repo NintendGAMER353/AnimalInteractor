@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1b556d6927506b4abebe5f00293e7fd
+guid: 3f63728336d97a54b88f87cf750ba245
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_0
+      name: KittyCatWalkSideLeft-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c076dd69263bec748ba7199d1826ddfc
-      internalID: 1415823431
+      spriteID: 7b6bf05753ab48347989de4da7e1eb5c
+      internalID: 128780615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_1
+      name: KittyCatWalkSideLeft-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3666902c51300f47b31c9d1078575df
-      internalID: -1562421731
+      spriteID: 3e96a1f8e58fce24db7dcafddbb1cd99
+      internalID: -757634331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_2
+      name: KittyCatWalkSideLeft-Sheet_2
       rect:
         serializedVersion: 2
         x: 48
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d2036683e1314843833a5f62827c032
-      internalID: 1403280675
+      spriteID: 5c727b61e965e384a86c87eff016ab18
+      internalID: -1004036022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_3
+      name: KittyCatWalkSideLeft-Sheet_3
       rect:
         serializedVersion: 2
         x: 72
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5ab24d553d9e842b92a94ccd9c4410
-      internalID: -1937734582
+      spriteID: 260cbd70cc088b74a8809b3491cea0c7
+      internalID: 859529917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_4
+      name: KittyCatWalkSideLeft-Sheet_4
       rect:
         serializedVersion: 2
         x: 96
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803dea60a2d89504c9dddc615befa435
-      internalID: 1730297531
+      spriteID: 6117eba81941bbe4e92b61544f2b2a79
+      internalID: 1590437069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_5
+      name: KittyCatWalkSideLeft-Sheet_5
       rect:
         serializedVersion: 2
         x: 120
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fa9929fb05fcba4c85570e234f32434
-      internalID: -274772844
+      spriteID: 956a939bea0fc6f4babb90057be24d24
+      internalID: 2145132547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_6
+      name: KittyCatWalkSideLeft-Sheet_6
       rect:
         serializedVersion: 2
         x: 144
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e8c395d09edd14392ff527118d2613
-      internalID: 1263740858
+      spriteID: 4eefb4799d13fc24690cb8ba2442bb51
+      internalID: -1975904207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_7
+      name: KittyCatWalkSideLeft-Sheet_7
       rect:
         serializedVersion: 2
         x: 168
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d56b47c89b542a4bb45a4c090376f6b
-      internalID: -355726174
+      spriteID: 77b6703f59e4dbc40ba534ca06030ab5
+      internalID: 1454303454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_8
+      name: KittyCatWalkSideLeft-Sheet_8
       rect:
         serializedVersion: 2
         x: 192
@@ -314,14 +314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28412dc6b4add27479d11375ff1198b4
-      internalID: -1503383043
+      spriteID: 717351ef6ef6adb4b97a6e4e7fc6fdb2
+      internalID: 152654525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_9
+      name: KittyCatWalkSideLeft-Sheet_9
       rect:
         serializedVersion: 2
         x: 216
@@ -336,14 +336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20349947ff138ab4593a1dacf0c43bcb
-      internalID: -1128167381
+      spriteID: 5e52691e27b432e4ab260e19d46f85c1
+      internalID: 1892988772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_10
+      name: KittyCatWalkSideLeft-Sheet_10
       rect:
         serializedVersion: 2
         x: 240
@@ -358,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a514bedd3cd73f7408b5e337df8f4505
-      internalID: -2021354236
+      spriteID: 0ce8c48044e5bf7418f6516a3bd016fb
+      internalID: 635968898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrogWalkBack-Sheet_11
+      name: KittyCatWalkSideLeft-Sheet_11
       rect:
         serializedVersion: 2
         x: 264
@@ -380,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42aea7c66bf369b43ba7d379ae3d8299
-      internalID: -1505871905
+      spriteID: d6f40d9b21e52d64483668b6c2516759
+      internalID: -1493120973
       vertices: []
       indices: 
       edges: []
@@ -390,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fcba9be03abbe7a469ce24533c236cd0
+    spriteID: 52191a21cc4b89f45aaee70d0f23bd13
     internalID: 0
     vertices: []
     indices: 
@@ -400,18 +400,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrogWalkBack-Sheet_0: 1415823431
-      FrogWalkBack-Sheet_1: -1562421731
-      FrogWalkBack-Sheet_10: -2021354236
-      FrogWalkBack-Sheet_11: -1505871905
-      FrogWalkBack-Sheet_2: 1403280675
-      FrogWalkBack-Sheet_3: -1937734582
-      FrogWalkBack-Sheet_4: 1730297531
-      FrogWalkBack-Sheet_5: -274772844
-      FrogWalkBack-Sheet_6: 1263740858
-      FrogWalkBack-Sheet_7: -355726174
-      FrogWalkBack-Sheet_8: -1503383043
-      FrogWalkBack-Sheet_9: -1128167381
+      KittyCatWalkSideLeft-Sheet_0: 128780615
+      KittyCatWalkSideLeft-Sheet_1: -757634331
+      KittyCatWalkSideLeft-Sheet_10: 635968898
+      KittyCatWalkSideLeft-Sheet_11: -1493120973
+      KittyCatWalkSideLeft-Sheet_2: -1004036022
+      KittyCatWalkSideLeft-Sheet_3: 859529917
+      KittyCatWalkSideLeft-Sheet_4: 1590437069
+      KittyCatWalkSideLeft-Sheet_5: 2145132547
+      KittyCatWalkSideLeft-Sheet_6: -1975904207
+      KittyCatWalkSideLeft-Sheet_7: 1454303454
+      KittyCatWalkSideLeft-Sheet_8: 152654525
+      KittyCatWalkSideLeft-Sheet_9: 1892988772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

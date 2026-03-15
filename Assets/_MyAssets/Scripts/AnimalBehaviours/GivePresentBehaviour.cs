@@ -7,6 +7,7 @@ public class GivePresentBehaviour : AnimalBehaviourBase
     [HideInInspector]
     public ObjectStats actualPresent;
     public GameObject likeEffectSprite;
+    public GameObject DislikeEffectSprite;
 
     Timer timer;
     public override IAnimalBehaviour.StateClass StateName
@@ -25,11 +26,20 @@ public class GivePresentBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        
+        animal.animator.Play(AnimalAnimations.IdleFront.ToString());
         actualPresent.GetComponent<Collider>().enabled = false;
         timer = new(2);
-        animal.happiness++;
-        Instantiate(likeEffectSprite, transform,false);
+        if (actualPresent.giftData.likedBy.Contains(animal.animalData))
+        {
+            animal.happiness++;
+            Instantiate(likeEffectSprite, transform, false);
+        }
+        else
+        {
+            Instantiate(DislikeEffectSprite, transform, false);
+        }
+
+       
 
         if (animal.happiness >= 5)
         {
