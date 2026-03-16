@@ -17,8 +17,9 @@ public class GreetAnimalBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        
+        animal.orientation = Animal.AnimalOrientation.FRONT;
         animal.animator.Play(AnimalAnimations.Greet.ToString());
+        animal.boredom -= 200;
     }
 
     public override void UpdateState() {
