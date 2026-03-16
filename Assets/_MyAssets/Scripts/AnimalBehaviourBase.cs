@@ -18,7 +18,8 @@ public abstract class AnimalBehaviourBase : MonoBehaviour, IAnimalBehaviour
         WalkBack,
         WalkLeft,
         WalkRight,
-        Greet
+        Greet,
+        ReadStart
     }
 
     protected void Awake()

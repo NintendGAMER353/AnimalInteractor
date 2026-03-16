@@ -16,6 +16,8 @@ public class Animal : MonoBehaviour
     public Dictionary <IAnimalBehaviour.StateClass, IAnimalBehaviour> states = new();
 
     public AnimalSO animalData;
+
+
     public enum AnimalOrientation
     {
         FRONT,
@@ -24,6 +26,9 @@ public class Animal : MonoBehaviour
         RIGHT
     }
     public float happiness = 0;
+    public int boredom = 0;
+    public int boredLimit = 120;
+
     public AnimalOrientation orientation = AnimalOrientation.FRONT;
  
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
