@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a88c83290c8a4499e0e97eaadcba25, type: 3}
   m_Name: gift3
   m_EditorClassIdentifier: 
-  giftName: 
-  prefab: {fileID: 0}
-  likedBy: []
+  giftName: TODO
+  prefab: {fileID: 414720937500580214, guid: 50498c17f1eaa204caa413f7deedd49e, type: 3}
+  likedBy:
+  - {fileID: 11400000, guid: 6c77ed794df356f4398c9d8615c66410, type: 2}
   dislikedBy: []
