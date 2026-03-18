@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8133dc1bdd818304f9475daafc56cf38
+guid: 2ec0a3135c6dec44fa00d20e271359a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -52,58 +52,63 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: NubeResized
-    second: {fileID: 2100000, guid: 5c07bde1945d5714e9566a5201ae97a8, type: 2}
+      name: Material.004
+    second: {fileID: 2100000, guid: 55d61eab72298714792c5d01123641c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 70302379bab3d0d408bcb0f5597794ec, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Arbol1Resized
-    second: {fileID: 2800000, guid: 6d0dfd2424ef9f84a9a0876a86bc0fd6, type: 3}
+    second: {fileID: 2800000, guid: c402efb5d0ea28743a2de1ae8ff74301, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Arbol2Resized
-    second: {fileID: 2800000, guid: b3d09ea6d028cea42ae7238392b8238a, type: 3}
+    second: {fileID: 2800000, guid: 17c30b5af88e3ff46b6f9edbaca11d8f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bush2Resized
-    second: {fileID: 2800000, guid: f23a5eb5a41c0934c9ee74bc983dba45, type: 3}
+    second: {fileID: 2800000, guid: 0cfbd188851eb6549aa747e971bc41a5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: BushResized
-    second: {fileID: 2800000, guid: bbc782a80437718479b5fa8bb0c46d07, type: 3}
+    second: {fileID: 2800000, guid: 9edd31201e4b45546ba06b6ccbf3e903, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Camino
-    second: {fileID: 2800000, guid: 96be7c667eeb89546b592f209439445f, type: 3}
+    second: {fileID: 2800000, guid: 955f10989529c4841a79c075f26b17c5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: CespedResized
-    second: {fileID: 2800000, guid: 88d02e53ea1d7514282ee4c4d1f048e1, type: 3}
+    second: {fileID: 2800000, guid: aeb357dd0787658428b24954ece48ac3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cube.022
-    second: {fileID: 2800000, guid: c5d18ca30a5a8a546af96a3fadf289c5, type: 3}
+    second: {fileID: 2800000, guid: 12ee74ca485774a4595c5a2bd3f50a96, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: NubeResized
-    second: {fileID: 2800000, guid: 386219d484aecd646a0e82ecb8e0fec9, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Suelo2Resized
-    second: {fileID: 2800000, guid: 163b2724756153c47b86a4e26135dd72, type: 3}
+      name: Suelo2Resized2
+    second: {fileID: 2800000, guid: be3446682aa69e94eb9452baf85385d7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: WhatsApp Image 2026-03-17 at 11.17.46
-    second: {fileID: 2800000, guid: 7f26ce3c76a427c43821016498760f84, type: 3}
+    second: {fileID: 2800000, guid: b84e08bb22558db42a672f704f3e5772, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhatsApp Image 2026-03-18 at 13.03.42
+    second: {fileID: 2800000, guid: 96830743aa31f29448541025265c5094, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
