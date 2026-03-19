@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animator Override Controller
+  m_Name: PandaAnimator
   m_Controller: {fileID: 9100000, guid: 3eb812b9e35dadc4b98b6797f36e706d, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 46782518fb3de0e4297cc3a73f376083, type: 2}

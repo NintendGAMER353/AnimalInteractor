@@ -31,10 +31,10 @@ public class PresentSpawnController : MonoBehaviour
         if (presentsSpawned.Count >= maxSpawnedPresents)
             return;
 
-        Vector3 randomDirection = Random.insideUnitSphere * 5;
+        Vector3 randomDirection = Random.insideUnitSphere * 10;
 
         randomDirection += transform.position;
-        NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, 5, 1);
+        NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, 10, 1);
         Vector3 finalPosition = new Vector3(hit.position.x,transform.position.y,hit.position.z);
 
         GameObject present = Instantiate(PresentPrefab,finalPosition,Quaternion.identity);

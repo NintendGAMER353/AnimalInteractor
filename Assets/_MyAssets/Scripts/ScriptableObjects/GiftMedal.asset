@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GiftMedal
   m_EditorClassIdentifier: 
   giftName: Medal
-  prefab: {fileID: 0}
+  prefab: {fileID: 4240325829154114575, guid: 373a266865f3e1747895592a822e6e40, type: 3}
   likedBy: []
   dislikedBy: []
