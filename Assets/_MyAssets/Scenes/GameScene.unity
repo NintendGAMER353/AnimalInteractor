@@ -352,9 +352,11 @@ MonoBehaviour:
   cameraPanSpeed: 0.1
   minX: -17.1
   maxX: 19
-  zoomSpeed: 0.35
-  minZoom: {x: 5, y: -22.2}
-  maxZoom: {x: 9.8, y: -13.9}
+  minZ: -26
+  maxZ: 2
+  zoomSpeed: 1
+  minZoom: 25
+  maxZoom: 50
 --- !u!4 &327212733
 Transform:
   m_ObjectHideFlags: 0
@@ -429,7 +431,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 25.734083
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -471,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -1.4, y: 7.1, z: -17.4}
+  m_LocalPosition: {x: -8, y: 9.12, z: -25.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1919,7 +1921,7 @@ PrefabInstance:
       objectReference: {fileID: 733551256}
     - target: {fileID: 3251878152664996358, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.35
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 3251878152664996358, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1927,7 +1929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3251878152664996358, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.07
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 3251878152664996358, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
       propertyPath: m_LocalRotation.w
