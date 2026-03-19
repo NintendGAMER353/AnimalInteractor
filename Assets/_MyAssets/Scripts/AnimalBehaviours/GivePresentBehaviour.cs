@@ -40,7 +40,10 @@ public class GivePresentBehaviour : AnimalBehaviourBase
             Instantiate(DislikeEffectSprite, transform, false);
         }
 
-       
+        GameManager.Instance.presentGen.presentsSpawned.Remove(actualPresent.gameObject);
+        Destroy(actualPresent.gameObject);
+        actualPresent = null;
+
 
         if (animal.happiness >= 5)
         {
@@ -59,8 +62,6 @@ public class GivePresentBehaviour : AnimalBehaviourBase
 
     public override void Exit()
     {
-        GameManager.Instance.presentGen.presentsSpawned.Remove(actualPresent.gameObject);
-        Destroy(actualPresent.gameObject);
-        actualPresent = null;
+       
     }
 }

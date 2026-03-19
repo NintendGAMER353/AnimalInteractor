@@ -34,7 +34,7 @@ public class Animal : MonoBehaviour
     public void changeState(IAnimalBehaviour.StateClass behaviourName)
     {   
         IAnimalBehaviour behaviour = states[behaviourName];
-        Debug.Log("Changing state to: " + behaviour.ToString());
+        //Debug.Log("Changing state to: " + behaviour.ToString());
         currentBehaviour.Exit();
         currentBehaviour = behaviour;
         currentBehaviour.Enter();

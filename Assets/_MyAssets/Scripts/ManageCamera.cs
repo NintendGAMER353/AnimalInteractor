@@ -11,7 +11,7 @@ public class ManageCamera : MonoBehaviour
     public float minZoom = 25f;
     public float maxZoom = 50f;
     ObjectStats present;
-
+    Animal hitAnimal;
     private void Update()
     {
         HandleMouseInput();
@@ -21,12 +21,21 @@ public class ManageCamera : MonoBehaviour
             Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                if(hit.collider.gameObject == present.gameObject)
+                if (hit.collider.gameObject == present.gameObject)
                 {
                     return;
                 }
-                    present.transform.position = new Vector3(hit.point.x, hit.point.y + 0.3f, hit.point.z);
+
+                if (hit.collider.TryGetComponent(out Animal hitAn))
+                    hitAnimal = hitAn;
+                else
+                    hitAnimal = null;
+
+                present.transform.position = new Vector3(hit.point.x, hit.point.y + 0.3f, hit.point.z);
+
+
             }
+
         }
     }
 
@@ -54,7 +63,7 @@ public class ManageCamera : MonoBehaviour
         (float dx, float dy, float dz) = (Input.mousePositionDelta.x, Input.mousePositionDelta.y, Input.mousePositionDelta.z);
         Camera.main.transform.position -= new Vector3(dx, 0, dy) * cameraPanSpeed;
         Vector3 camPos = Camera.main.transform.position;
-        Camera.main.transform.position = new Vector3(Mathf.Clamp(camPos.x, minX, maxX), camPos.y, Mathf.Clamp(camPos.z,minZ,maxZ));
+        Camera.main.transform.position = new Vector3(Mathf.Clamp(camPos.x, minX, maxX), camPos.y, Mathf.Clamp(camPos.z, minZ, maxZ));
     }
 
     private void HandleMouseScrollInput()
@@ -82,11 +91,20 @@ public class ManageCamera : MonoBehaviour
 
     private void ReleaseObject()
     {
-        if (present != null)
+        if (present == null)
+            return;
+        if (hitAnimal != null && hitAnimal.currentBehaviour.IsInterrumpible)
         {
-            present.GetComponent<Collider>().enabled = true;
-            present = null;
+            hitAnimal.GetComponentInChildren<GivePresentBehaviour>().actualPresent = present;
+            hitAnimal.changeState(IAnimalBehaviour.StateClass.GIVE_PRESENT);
+
+            return;
         }
+
+
+
+        present.GetComponent<Collider>().enabled = true;
+        present = null;
 
     }
 }

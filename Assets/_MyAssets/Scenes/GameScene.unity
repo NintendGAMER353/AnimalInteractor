@@ -473,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -8, y: 9.12, z: -25.4}
+  m_LocalPosition: {x: 2.3, y: 9.12, z: -25.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1976,6 +1976,10 @@ PrefabInstance:
       propertyPath: 'WalkPoints.Array.data[7]'
       value: 
       objectReference: {fileID: 733551256}
+    - target: {fileID: 2295515119982532237, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3251878152664996358, guid: c39547025b4cd8449a781dc6af3cf8fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
