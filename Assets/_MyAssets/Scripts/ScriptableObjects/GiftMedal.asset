@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13f642d51b86bab479d1636d36fffab8, type: 3}
-  m_Name: AnimalPanda
+  m_Script: {fileID: 11500000, guid: a8a88c83290c8a4499e0e97eaadcba25, type: 3}
+  m_Name: GiftMedal
   m_EditorClassIdentifier: 
-  AnimalName: 
-  prefab: {fileID: 3528619447291481281, guid: d7eb902945744c74990771e2b1047b41, type: 3}
-  GiftsWhenHappy: {fileID: 11400000, guid: 344184bf6d8fa8a44bc8326d004c792e, type: 2}
+  giftName: Medal
+  prefab: {fileID: 0}
+  likedBy: []
+  dislikedBy: []
