@@ -1,13 +1,15 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ManageCamera : MonoBehaviour
 {
     [Header("Camera")]
     public float cameraPanSpeed = 0.1f;
-    public float minX = -17.1f, maxX = 19f;
+    public float minX = -8f, maxX = 14f;
+    public float minZ = -26f, maxZ = 2f;
     public float zoomSpeed = 0.35f;
-    public Vector2 minZoom = new Vector2(5f, -22.2f);
-    public Vector2 maxZoom = new Vector2(9.8f, -13.9f);
+    public float minZoom = 25f;
+    public float maxZoom = 50f;
     ObjectStats present;
 
     private void Update()
@@ -49,18 +51,18 @@ public class ManageCamera : MonoBehaviour
 
     private void HandleMiddleMouseInput()
     {
-        float dx = Input.mousePositionDelta.x;
-        Camera.main.transform.position += new Vector3(dx, 0, 0) * cameraPanSpeed;
+        (float dx, float dy, float dz) = (Input.mousePositionDelta.x, Input.mousePositionDelta.y, Input.mousePositionDelta.z);
+        Camera.main.transform.position -= new Vector3(dx, 0, dy) * cameraPanSpeed;
         Vector3 camPos = Camera.main.transform.position;
-        Camera.main.transform.position = new Vector3(Mathf.Clamp(camPos.x, minX, maxX), camPos.y, camPos.z);
+        Camera.main.transform.position = new Vector3(Mathf.Clamp(camPos.x, minX, maxX), camPos.y, Mathf.Clamp(camPos.z,minZ,maxZ));
     }
 
     private void HandleMouseScrollInput()
     {
         float dy = (Input.mouseScrollDelta.y);
-        Camera.main.transform.position += dy*Camera.main.transform.forward*zoomSpeed;
-        Vector3 camPos = Camera.main.transform.position;
-        Camera.main.transform.position = new Vector3(camPos.x, Mathf.Clamp(camPos.y, minZoom.x, maxZoom.x), Mathf.Clamp(camPos.z, minZoom.y, maxZoom.y));
+        Camera.main.fieldOfView -= dy * zoomSpeed;
+        float zoom = Camera.main.fieldOfView;
+        Camera.main.fieldOfView = Mathf.Clamp(zoom, minZoom, maxZoom);
     }
 
     private void PickObject()

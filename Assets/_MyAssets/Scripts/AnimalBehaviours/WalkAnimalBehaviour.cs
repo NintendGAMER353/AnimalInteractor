@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class WalkAnimalBehaviour : AnimalBehaviourBase
 {
@@ -17,7 +18,13 @@ public class WalkAnimalBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
-        animal.agent.destination = WalkPoints[Random.Range(0, WalkPoints.Length)].position;
+        Vector3 randomDirection = Random.insideUnitSphere * 10;
+
+        randomDirection += transform.position;
+        NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, 10, 1);
+        Vector3 finalPosition = new Vector3(hit.position.x, transform.position.y, hit.position.z);
+
+        animal.agent.destination = finalPosition;//WalkPoints[Random.Range(0, WalkPoints.Length)].position;
         animal.agent.isStopped = false;
     }
 
