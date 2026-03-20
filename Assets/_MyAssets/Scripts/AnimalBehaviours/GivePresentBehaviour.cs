@@ -26,6 +26,7 @@ public class GivePresentBehaviour : AnimalBehaviourBase
 
     public override void Enter()
     {
+        bool liked = true;
         animal.animator.Play(AnimalAnimations.IdleFront.ToString());
         actualPresent.GetComponent<Collider>().enabled = false;
         timer = new(2);
@@ -38,6 +39,7 @@ public class GivePresentBehaviour : AnimalBehaviourBase
         else
         {
             Instantiate(DislikeEffectSprite, transform, false);
+            liked = false;
         }
 
         GameManager.Instance.presentGen.presentsSpawned.Remove(actualPresent.gameObject);
@@ -45,7 +47,7 @@ public class GivePresentBehaviour : AnimalBehaviourBase
         actualPresent = null;
 
 
-        if (animal.happiness >= 5)
+        if (animal.happiness >= 5 && liked)
         {
             Debug.Log("Instantiating present");
             animal.changeState(IAnimalBehaviour.StateClass.RETURN_PRESENT);

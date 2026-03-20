@@ -6,6 +6,8 @@ public class VictoryScript : MonoBehaviour
     void Start()
     {
         GameManager.Instance.VictoryPanel.SetActive(true);
+        Time.timeScale = 0f;
+        GameManager.Instance.paused = true;
     }
 
     // Update is called once per frame

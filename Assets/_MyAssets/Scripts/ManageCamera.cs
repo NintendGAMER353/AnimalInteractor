@@ -1,3 +1,4 @@
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -41,6 +42,8 @@ public class ManageCamera : MonoBehaviour
 
     private void HandleMouseInput()
     {
+        if(GameManager.Instance.paused) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             PickObject();

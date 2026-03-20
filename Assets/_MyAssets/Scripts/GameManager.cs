@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject pausePanel;
     public GameObject VictoryPanel;
-
+    public bool paused = false;
     private void Awake()
     {
         if (Instance == null)
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
         {
             pausePanel.SetActive(true);
             Time.timeScale = 0f;
+            paused = true;
         }
     }
 
@@ -33,6 +34,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         pausePanel.SetActive(false);
+        paused = false;
     }
 
     public void OnReturnMainMenu()
