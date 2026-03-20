@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb6801331f14ff146b33466d0aea9b40
+guid: 80432dc178330cd44ba3b34a117cd374
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -50,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -106,24 +106,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_0
+      name: RedPandaIdleSideRight-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0126ddc17753d3b4291dfdc43607f052
-      internalID: 590753462
+      spriteID: 58c00a686a16ec845876233e36544ed4
+      internalID: -1899604539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_1
+      name: RedPandaIdleSideRight-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -160,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7510434de77f1c40b062b00462531df
-      internalID: -2040801891
+      spriteID: fade661b19e77b2448754dcff3edf8f1
+      internalID: -468002999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_2
+      name: RedPandaIdleSideRight-Sheet_2
       rect:
         serializedVersion: 2
         x: 48
@@ -182,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2758dc8562169224c8b583650a98285f
-      internalID: 1764348432
+      spriteID: 6e4fac1e4496cd6418b2f2f62a0bc447
+      internalID: 691279141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_3
+      name: RedPandaIdleSideRight-Sheet_3
       rect:
         serializedVersion: 2
         x: 72
@@ -204,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cd38819c0683a48b8715c529a9ba9f
-      internalID: -287947061
+      spriteID: 6c1686cf002e4ee47acafa2ab53568b3
+      internalID: 1215746566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_4
+      name: RedPandaIdleSideRight-Sheet_4
       rect:
         serializedVersion: 2
         x: 96
@@ -226,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a525cafe4aad66e4b8a0c2cf0c209e1a
-      internalID: 1973198065
+      spriteID: d4eb55f73b2b4724ea6d55a8a6ca1af8
+      internalID: 1184761574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_5
+      name: RedPandaIdleSideRight-Sheet_5
       rect:
         serializedVersion: 2
         x: 120
@@ -248,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a19bd537a16fea6469071f0037d30cbb
-      internalID: -228418731
+      spriteID: fb21cda485c58224ca9cfd629d06adc9
+      internalID: -1187057346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_6
+      name: RedPandaIdleSideRight-Sheet_6
       rect:
         serializedVersion: 2
         x: 144
@@ -270,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a9f73e49c675434f88e938e843d8295
-      internalID: -1233284774
+      spriteID: a2c2f88c562bb8646b9f8881a0278f7a
+      internalID: -1025735101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleBack-Sheet_7
+      name: RedPandaIdleSideRight-Sheet_7
       rect:
         serializedVersion: 2
         x: 168
@@ -292,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee55c3ca9f0d60f4b85790afd94a625b
-      internalID: 398981013
+      spriteID: 10c38b00e9bfb0547be8a58b64584a8a
+      internalID: 1533165446
       vertices: []
       indices: 
       edges: []
@@ -302,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 00667933ac94a0349a7fa828aa1bf616
+    spriteID: e56c6194628af5c4fad0aca030a811cc
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +299,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RedPandaIdleBack-Sheet_0: 590753462
-      RedPandaIdleBack-Sheet_1: -2040801891
-      RedPandaIdleBack-Sheet_2: 1764348432
-      RedPandaIdleBack-Sheet_3: -287947061
-      RedPandaIdleBack-Sheet_4: 1973198065
-      RedPandaIdleBack-Sheet_5: -228418731
-      RedPandaIdleBack-Sheet_6: -1233284774
-      RedPandaIdleBack-Sheet_7: 398981013
+      RedPandaIdleSideRight-Sheet_0: -1899604539
+      RedPandaIdleSideRight-Sheet_1: -468002999
+      RedPandaIdleSideRight-Sheet_2: 691279141
+      RedPandaIdleSideRight-Sheet_3: 1215746566
+      RedPandaIdleSideRight-Sheet_4: 1184761574
+      RedPandaIdleSideRight-Sheet_5: -1187057346
+      RedPandaIdleSideRight-Sheet_6: -1025735101
+      RedPandaIdleSideRight-Sheet_7: 1533165446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

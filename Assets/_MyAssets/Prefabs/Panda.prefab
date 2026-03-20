@@ -15,7 +15,11 @@ PrefabInstance:
     - target: {fileID: 541808094459516590, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -232426130, guid: b8d986ab89ee631499b36c6a9a215e5b, type: 3}
+      objectReference: {fileID: -2086520273, guid: 449e0b645726e6142bacc791445b4b3d, type: 3}
+    - target: {fileID: 541808094459516590, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3004410987361521741, guid: 118a10a9884f05f4dab1b29f500ffa02, type: 3}
       propertyPath: animalData
       value: 

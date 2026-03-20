@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8d986ab89ee631499b36c6a9a215e5b
+guid: 86e60e60077dbc44e81fffc1a79d739e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,24 +106,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_0
+      name: RedPandaWalkSideLeft-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7ec2ab2fe75754896fd816c957ca20
-      internalID: -232426130
+      spriteID: 1e1f54a326fd3a543abd23031c3f7cec
+      internalID: -865274079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_1
+      name: RedPandaWalkSideLeft-Sheet_1
       rect:
         serializedVersion: 2
         x: 24
@@ -160,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dcd7fb54e7a35941b232311b615b25a
-      internalID: -1609045521
+      spriteID: cdad0ed9657ce2a44b5228a5937d6d5b
+      internalID: -2037468937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_2
+      name: RedPandaWalkSideLeft-Sheet_2
       rect:
         serializedVersion: 2
         x: 48
@@ -182,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf7546d7a43fb3945ac7734865a7aa5e
-      internalID: 1254182073
+      spriteID: 3a73657d0ed3fe74683bb9efb57477f8
+      internalID: 1375995394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_3
+      name: RedPandaWalkSideLeft-Sheet_3
       rect:
         serializedVersion: 2
         x: 72
@@ -204,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0d4c08af4873a44096f5ef4f25e194d
-      internalID: 145649546
+      spriteID: 200e22664d6586e4da43eec95a68cc58
+      internalID: -1064812230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_4
+      name: RedPandaWalkSideLeft-Sheet_4
       rect:
         serializedVersion: 2
         x: 96
@@ -226,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d57eae225ce976498166542fbf78ef3
-      internalID: 482765328
+      spriteID: 969652fdb29d1684e856a47d3a402797
+      internalID: -1065445397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_5
+      name: RedPandaWalkSideLeft-Sheet_5
       rect:
         serializedVersion: 2
         x: 120
@@ -248,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c37f7929d23eb49b6342ca6a6996ac
-      internalID: -1856933689
+      spriteID: 4bceb40340d2f8e479ad91569ddd83be
+      internalID: 460727186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_6
+      name: RedPandaWalkSideLeft-Sheet_6
       rect:
         serializedVersion: 2
         x: 144
@@ -270,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 515fcfb181a9e58458f816ef7cc72a11
-      internalID: 993529079
+      spriteID: 1eb358f51f1a5e54d89883269d47a05e
+      internalID: -908504012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPandaIdleFront-Sheet_7
+      name: RedPandaWalkSideLeft-Sheet_7
       rect:
         serializedVersion: 2
         x: 168
@@ -292,8 +279,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 650597ea58995ac4095d2092af2239a9
-      internalID: 709372857
+      spriteID: e55450fe58e6b5a4180a2142fb3237ea
+      internalID: -1986546031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPandaWalkSideLeft-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1241e40fb5854bc44b44622b4516824d
+      internalID: 248416918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPandaWalkSideLeft-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafab0d42936dd4409f0da8b06769eae
+      internalID: -1561369612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPandaWalkSideLeft-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108437e12df6d3b439b9dba1cffeec83
+      internalID: -460262340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPandaWalkSideLeft-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530af1df32c417e4a944010a2a0bad3a
+      internalID: -2055676398
       vertices: []
       indices: 
       edges: []
@@ -302,7 +377,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1bbb7c607edb1f64880af9fdd445b2a0
+    spriteID: d2cf83b3e60e45945b3de6e626a8aaef
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +387,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RedPandaIdleFront-Sheet_0: -232426130
-      RedPandaIdleFront-Sheet_1: -1609045521
-      RedPandaIdleFront-Sheet_2: 1254182073
-      RedPandaIdleFront-Sheet_3: 145649546
-      RedPandaIdleFront-Sheet_4: 482765328
-      RedPandaIdleFront-Sheet_5: -1856933689
-      RedPandaIdleFront-Sheet_6: 993529079
-      RedPandaIdleFront-Sheet_7: 709372857
+      RedPandaWalkSideLeft-Sheet_0: -865274079
+      RedPandaWalkSideLeft-Sheet_1: -2037468937
+      RedPandaWalkSideLeft-Sheet_10: -460262340
+      RedPandaWalkSideLeft-Sheet_11: -2055676398
+      RedPandaWalkSideLeft-Sheet_2: 1375995394
+      RedPandaWalkSideLeft-Sheet_3: -1064812230
+      RedPandaWalkSideLeft-Sheet_4: -1065445397
+      RedPandaWalkSideLeft-Sheet_5: 460727186
+      RedPandaWalkSideLeft-Sheet_6: -908504012
+      RedPandaWalkSideLeft-Sheet_7: -1986546031
+      RedPandaWalkSideLeft-Sheet_8: 248416918
+      RedPandaWalkSideLeft-Sheet_9: -1561369612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
