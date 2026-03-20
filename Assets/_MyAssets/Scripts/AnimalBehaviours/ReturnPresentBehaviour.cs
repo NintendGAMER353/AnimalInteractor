@@ -19,7 +19,7 @@ public class ReturnPresentBehaviour : AnimalBehaviourBase
     public override void Enter()
     {
         
-        Instantiate(animal.animalData.GiftsWhenHappy.prefab, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z - 3f), Quaternion.identity);
+        Instantiate(animal.animalData.GiftsWhenHappy.prefab, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z), Quaternion.identity);
         animal.changeState(IAnimalBehaviour.StateClass.IDLE);
     }
 }

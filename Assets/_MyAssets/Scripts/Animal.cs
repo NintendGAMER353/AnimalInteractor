@@ -25,7 +25,7 @@ public class Animal : MonoBehaviour
         LEFT,
         RIGHT
     }
-    public float happiness = 0;
+    public int happiness = 0;
     public int boredom = 0;
     public int boredLimit = 120;
 

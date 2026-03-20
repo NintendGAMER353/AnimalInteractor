@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public GameObject pausePanel;
+    public GameObject VictoryPanel;
 
     private void Awake()
     {
