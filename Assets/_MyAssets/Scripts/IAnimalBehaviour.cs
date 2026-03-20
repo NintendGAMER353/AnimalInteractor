@@ -15,7 +15,8 @@ public interface IAnimalBehaviour
         GREET,
         GIVE_PRESENT,
         RETURN_PRESENT,
-        READ
+        READ,
+        STRETCH
     }
     /// <summary>
     /// Metodo que se ejecuta cuando un animal cambia a este estado
